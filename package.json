@@ -1,6 +1,6 @@
 {
   "name": "vottun-ts-sdk",
-  "version": "0.0.0-development",
+  "version": "0.0.7-development",
   "description": "A Typescript SDK implementation for the Vottun API",
   "main": "./lib/index.js",
   "files": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
+    "url": "git+https://github.com/vottundev/ts-sdk.git"
   },
   "license": "MIT",
   "author": {
@@ -42,9 +42,9 @@
     "vottun"
   ],
   "bugs": {
-    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
+    "url": "https://github.com/vottundev/ts-sdk/issues"
   },
-  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
+  "homepage": "https://github.com/vottundev/ts-sdk#readme",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
@@ -64,7 +64,7 @@
     "semantic-release": "^21.0.1",
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
-    "typescript": "^4.2.4"
+    "typescript": "5.7.2"
   },
   "config": {
     "commitizen": {
@@ -118,5 +118,8 @@
       "@semantic-release/npm",
       "@semantic-release/github"
     ]
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
   }
 }

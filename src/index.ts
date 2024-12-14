@@ -1,1 +1,3 @@
-export const myPackage = (taco = ''): string => `${taco} from my package`;
+export * from './config';
+export * from './interfaces';
+export * from './services';
