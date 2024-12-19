@@ -13,7 +13,6 @@ class VottunSDK {
       );
     }
     this.credentials = { appId: id, apiKey: key };
-    console.log('Vottun SDK initialized with credentials:', this.credentials);
   }
 
   getCredentials(): VottunCredentials {

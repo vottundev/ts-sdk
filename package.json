@@ -1,6 +1,6 @@
 {
   "name": "vottun-ts-sdk",
-  "version": "0.0.7-development",
+  "version": "0.0.11-development",
   "description": "A Typescript SDK implementation for the Vottun API",
   "main": "./lib/index.js",
   "files": [
